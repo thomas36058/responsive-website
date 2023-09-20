@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: '1.25rem', //20px
+      padding: '1.25rem', // 20px
       screens: {
         sm: '640px',
         md: '768px',
@@ -13,18 +13,18 @@ module.exports = {
       },
     },
     colors: {
-      'black': '#000',
-      'white': '#FFF',
+      black: '#000',
+      white: '#FFF',
       'opacity-black': '#00000066',
       'light-black': '#2E2E2E',
       'almost-black': '#18191F',
       'light-gray': '#808080',
+      'orange': '#F84646'
     },
     extend: {
-      'teste': 'bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded',
       fontFamily: {
-        'sans': ['Manrope', 'Arial', 'sans-serif'],
+        sans: ['Manrope', 'Arial', 'sans-serif'],
       },
-    }
-  }
-}
+    },
+  },
+};
