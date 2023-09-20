@@ -30,6 +30,17 @@ After installing the dependencies, you can run the project locally. Tailwind CSS
    npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch
 2. Begin editing files in the src/ directory to customize the project according to your needs.
 
+## Tailwind CSS + Browsersync:
+If you want to add automatic browser refresh with Tailwind CSS and Browsersync
+
+1. Install Browsersync globally if it's not already installed:
+    ```bash
+    npm install -g browser-sync
+2. Start the Browsersync server:
+    ```bash
+   browser-sync start --server --files "**/*.html, **/*.css"
+3. When you save an HTML or CSS file, Browsersync will detect the changes and automatically refresh the browser to reflect the changes.
+
 ## Customization
 
 You can customize Tailwind CSS styles by editing the tailwind.config.js file. Refer to the official Tailwind CSS documentation for more information on customizing styles: [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation).
