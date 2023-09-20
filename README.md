@@ -33,12 +33,12 @@ After installing the dependencies, you can run the project locally. Tailwind CSS
 ## Tailwind CSS + Browsersync:
 If you want to add automatic browser refresh with Tailwind CSS and Browsersync
 
-1. Install Browsersync globally if it's not already installed:
+1. Install all packages:
     ```bash
-    npm install -g browser-sync
-2. Start the Browsersync server:
+    npm install
+2. Start the server:
     ```bash
-   browser-sync start --server --files "**/*.html, **/*.css"
+   npm run dev
 3. When you save an HTML or CSS file, Browsersync will detect the changes and automatically refresh the browser to reflect the changes.
 
 ## Customization
