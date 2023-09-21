@@ -2,6 +2,7 @@
   "scripts": {
     "dev:browser-sync": "browser-sync start --server --files \"**/*.html, **/*.css\"",
     "dev:tailwindcss": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
+    "dev:copy-img": "cp -r ./assets/img ./dist/",
     "dev": "npm-run-all -p dev:*"
   },
   "devDependencies": {

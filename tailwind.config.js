@@ -21,7 +21,15 @@ module.exports = {
       'light-gray': '#808080',
       'orange': '#F84646'
     },
+    fontSize: {
+      sm: '0.8rem',
+      xl: '1.25rem',
+      'h1': ['4rem', '5.125rem'], //64px
+    },
     extend: {
+      backgroundImage: {
+        'hero': "url('./img/bg-hero.png')",
+      },
       fontFamily: {
         sans: ['Manrope', 'Arial', 'sans-serif'],
       },
